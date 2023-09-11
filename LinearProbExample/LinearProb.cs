@@ -8,6 +8,8 @@ public class LinearProb
     {
         
         int i = 0;
+         Console.WriteLine("==List of Records in Data==");
+         printData(data);
 
         for (int j=0; j<data.Length; j++)
         {
@@ -21,6 +23,7 @@ public class LinearProb
             }
             hashtable[h] = data[j];
         }
+        Console.WriteLine("==Records in Hashtable==");
         printData(hashtable);
     }
 
